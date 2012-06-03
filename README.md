@@ -5,7 +5,7 @@ a minimalistic web blog written in c...because I was just curious and I've had a
 
 Dependencies:
 
-* libmicrohttpd (http://www.gnu.org/software/libmicrohttpd/) for the embedded httpd server
+* libmicrohttpd version 0.9.20 (http://www.gnu.org/software/libmicrohttpd/) for the embedded httpd server
 * CMake 2.8 (http://www.cmake.org/) for generating build scripts
 * make to build the executable
 
