@@ -8,7 +8,7 @@ char* url_to_page_name(const char* url)
 
 	slash_pos = strchr(url,'/');
 
-	if( NULL != slash_pos)
+	if( NULL != slash_pos && slash_pos != url)
 	{
 		page = strdup(slash_pos+1);
 	}
